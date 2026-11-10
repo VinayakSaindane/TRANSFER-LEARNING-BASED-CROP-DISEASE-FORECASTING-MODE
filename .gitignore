@@ -1,0 +1,26 @@
+# Environment & Secrets
+.env
+*.local
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Raw / processed large image datasets (generated via data/prepare_datasets.py)
+data/raw/
+data/processed/
+
+# Runtime caches
+data/cache/*.json
+!data/cache/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+

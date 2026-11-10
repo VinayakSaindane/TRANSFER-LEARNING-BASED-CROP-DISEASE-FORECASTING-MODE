@@ -1,0 +1,317 @@
+{
+  "evaluated_at": "2026-11-10T07:43:01.883635+00:00",
+  "backend": "torch",
+  "classes": [
+    "Healthy",
+    "Tomato Early Blight"
+  ],
+  "class_to_index": {
+    "Healthy": 0,
+    "Tomato Early Blight": 1
+  },
+  "plantvillage_train": {
+    "num_samples": 1805,
+    "accuracy": 0.9989,
+    "balanced_accuracy": 0.9991,
+    "specificity": 0.9982,
+    "sensitivity": 1.0,
+    "precision_macro": 0.9986,
+    "recall_macro": 0.9991,
+    "f1_macro": 0.9988,
+    "precision_weighted": 0.9989,
+    "recall_weighted": 0.9989,
+    "f1_weighted": 0.9989,
+    "confusion_matrix": [
+      [
+        1107,
+        2
+      ],
+      [
+        0,
+        696
+      ]
+    ],
+    "confusion_matrix_ordering": {
+      "rows": "true_label",
+      "cols": "predicted_label",
+      "labels": [
+        "Healthy",
+        "Tomato Early Blight"
+      ]
+    },
+    "prediction_distribution": {
+      "ground_truth_counts": {
+        "Healthy": 1109,
+        "Tomato Early Blight": 696
+      },
+      "predicted_counts": {
+        "Healthy": 1107,
+        "Tomato Early Blight": 698
+      },
+      "predicted_percentages": {
+        "Healthy": 61.33,
+        "Tomato Early Blight": 38.67
+      }
+    },
+    "classification_report": {
+      "Healthy": {
+        "precision": 1.0,
+        "recall": 0.9981965734896303,
+        "f1-score": 0.9990974729241877,
+        "support": 1109.0
+      },
+      "Tomato Early Blight": {
+        "precision": 0.997134670487106,
+        "recall": 1.0,
+        "f1-score": 0.9985652797704447,
+        "support": 696.0
+      },
+      "accuracy": 0.9988919667590028,
+      "macro avg": {
+        "precision": 0.998567335243553,
+        "recall": 0.9990982867448152,
+        "f1-score": 0.9988313763473162,
+        "support": 1805.0
+      },
+      "weighted avg": {
+        "precision": 0.9988951416393493,
+        "recall": 0.9988919667590028,
+        "f1-score": 0.9988922616028553,
+        "support": 1805.0
+      }
+    }
+  },
+  "plantvillage_val": {
+    "num_samples": 390,
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "specificity": 1.0,
+    "sensitivity": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "precision_weighted": 1.0,
+    "recall_weighted": 1.0,
+    "f1_weighted": 1.0,
+    "confusion_matrix": [
+      [
+        238,
+        0
+      ],
+      [
+        0,
+        152
+      ]
+    ],
+    "confusion_matrix_ordering": {
+      "rows": "true_label",
+      "cols": "predicted_label",
+      "labels": [
+        "Healthy",
+        "Tomato Early Blight"
+      ]
+    },
+    "prediction_distribution": {
+      "ground_truth_counts": {
+        "Healthy": 238,
+        "Tomato Early Blight": 152
+      },
+      "predicted_counts": {
+        "Healthy": 238,
+        "Tomato Early Blight": 152
+      },
+      "predicted_percentages": {
+        "Healthy": 61.03,
+        "Tomato Early Blight": 38.97
+      }
+    },
+    "classification_report": {
+      "Healthy": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 238.0
+      },
+      "Tomato Early Blight": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 152.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 390.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 390.0
+      }
+    }
+  },
+  "plantvillage_test": {
+    "num_samples": 390,
+    "accuracy": 0.9923,
+    "balanced_accuracy": 0.9901,
+    "specificity": 1.0,
+    "sensitivity": 0.9803,
+    "precision_macro": 0.9938,
+    "recall_macro": 0.9901,
+    "f1_macro": 0.9919,
+    "precision_weighted": 0.9924,
+    "recall_weighted": 0.9923,
+    "f1_weighted": 0.9923,
+    "confusion_matrix": [
+      [
+        238,
+        0
+      ],
+      [
+        3,
+        149
+      ]
+    ],
+    "confusion_matrix_ordering": {
+      "rows": "true_label",
+      "cols": "predicted_label",
+      "labels": [
+        "Healthy",
+        "Tomato Early Blight"
+      ]
+    },
+    "prediction_distribution": {
+      "ground_truth_counts": {
+        "Healthy": 238,
+        "Tomato Early Blight": 152
+      },
+      "predicted_counts": {
+        "Healthy": 241,
+        "Tomato Early Blight": 149
+      },
+      "predicted_percentages": {
+        "Healthy": 61.79,
+        "Tomato Early Blight": 38.21
+      }
+    },
+    "classification_report": {
+      "Healthy": {
+        "precision": 0.9875518672199171,
+        "recall": 1.0,
+        "f1-score": 0.9937369519832986,
+        "support": 238.0
+      },
+      "Tomato Early Blight": {
+        "precision": 1.0,
+        "recall": 0.9802631578947368,
+        "f1-score": 0.9900332225913622,
+        "support": 152.0
+      },
+      "accuracy": 0.9923076923076923,
+      "macro avg": {
+        "precision": 0.9937759336099585,
+        "recall": 0.9901315789473684,
+        "f1-score": 0.9918850872873304,
+        "support": 390.0
+      },
+      "weighted avg": {
+        "precision": 0.9924034471752313,
+        "recall": 0.9923076923076923,
+        "f1-score": 0.9922934471946464,
+        "support": 390.0
+      }
+    }
+  },
+  "plantdoc_external_eval": {
+    "num_samples": 151,
+    "accuracy": 0.6026,
+    "balanced_accuracy": 0.5238,
+    "specificity": 0.0476,
+    "sensitivity": 1.0,
+    "precision_macro": 0.7973,
+    "recall_macro": 0.5238,
+    "f1_macro": 0.4183,
+    "precision_weighted": 0.7637,
+    "recall_weighted": 0.6026,
+    "f1_weighted": 0.4725,
+    "confusion_matrix": [
+      [
+        3,
+        60
+      ],
+      [
+        0,
+        88
+      ]
+    ],
+    "confusion_matrix_ordering": {
+      "rows": "true_label",
+      "cols": "predicted_label",
+      "labels": [
+        "Healthy",
+        "Tomato Early Blight"
+      ]
+    },
+    "prediction_distribution": {
+      "ground_truth_counts": {
+        "Healthy": 63,
+        "Tomato Early Blight": 88
+      },
+      "predicted_counts": {
+        "Healthy": 3,
+        "Tomato Early Blight": 148
+      },
+      "predicted_percentages": {
+        "Healthy": 1.99,
+        "Tomato Early Blight": 98.01
+      }
+    },
+    "classification_report": {
+      "Healthy": {
+        "precision": 1.0,
+        "recall": 0.047619047619047616,
+        "f1-score": 0.09090909090909091,
+        "support": 63.0
+      },
+      "Tomato Early Blight": {
+        "precision": 0.5945945945945946,
+        "recall": 1.0,
+        "f1-score": 0.7457627118644068,
+        "support": 88.0
+      },
+      "accuracy": 0.6026490066225165,
+      "macro avg": {
+        "precision": 0.7972972972972974,
+        "recall": 0.5238095238095238,
+        "f1-score": 0.41833590138674887,
+        "support": 151.0
+      },
+      "weighted avg": {
+        "precision": 0.7637372471809558,
+        "recall": 0.6026490066225165,
+        "f1-score": 0.4725456382207982,
+        "support": 151.0
+      }
+    }
+  },
+  "plantdoc_label_mapping": {
+    "Tomato leaf": {
+      "mapped_label": "Healthy",
+      "class_index": 0
+    },
+    "Tomato Early blight leaf": {
+      "mapped_label": "Tomato Early Blight",
+      "class_index": 1
+    }
+  },
+  "domain_shift_accuracy_drop": 0.3897,
+  "domain_shift_balanced_accuracy_drop": 0.4663,
+  "limitations": [
+    "PlantVillage training and test images share controlled laboratory lighting and uniform studio backgrounds.",
+    "Zero-shot PlantDoc evaluation reveals severe domain shift: balanced accuracy is 52.38% and Healthy-class specificity is 4.76% (3/63) because 98.01% (148/151) of cluttered outdoor images were predicted as Tomato Early Blight. Current weights are NOT reliable for unverified field diagnosis.",
+    "The model is a binary classifier ('Healthy' vs 'Tomato Early Blight') and cannot diagnose late blight, Septoria leaf spot, bacterial spot, or abiotic deficiencies."
+  ]
+}

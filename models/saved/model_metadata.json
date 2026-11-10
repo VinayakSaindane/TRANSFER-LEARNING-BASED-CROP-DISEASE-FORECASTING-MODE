@@ -1,0 +1,29 @@
+{
+  "model_name": "AgriGuard MobileNetV2",
+  "backbone": "MobileNetV2 (ImageNet pretrained, include_top=False)",
+  "keras_version": "3.15.1",
+  "keras_backend": "torch",
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "preprocessing": "keras.applications.mobilenet_v2.preprocess_input ([-1, 1] scaling)",
+  "classes": [
+    "Healthy",
+    "Tomato Early Blight"
+  ],
+  "class_to_index": {
+    "Healthy": 0,
+    "Tomato Early Blight": 1
+  },
+  "dropout_rate": 0.3,
+  "head_learning_rate": 0.001,
+  "finetune_learning_rate": 5e-05,
+  "finetune_unfrozen_upper_layers": 25,
+  "total_parameters": 2260546,
+  "trainable_parameters_stage2": 1351042,
+  "saved_model_path": "models/saved/agriguard_mobilenetv2.keras",
+  "trained_at": "2026-11-10T07:28:54.980107+00:00",
+  "random_seed": 42
+}

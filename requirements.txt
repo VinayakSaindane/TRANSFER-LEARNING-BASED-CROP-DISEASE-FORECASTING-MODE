@@ -1,0 +1,25 @@
+# Core Application & UI
+streamlit>=1.40.0
+plotly>=5.24.0
+python-dotenv>=1.0.1
+requests>=2.32.0
+
+# Data & Numerical Processing
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.5.0
+matplotlib>=3.9.0
+
+# Image Processing
+pillow>=10.4.0
+opencv-python>=4.10.0
+
+# Deep Learning (Keras 3 supports TensorFlow or PyTorch backend)
+keras>=3.10.0
+torch>=2.5.0
+# Optional on hosts with >2 GB free disk space:
+# tensorflow>=2.18.0
+
+# Testing
+pytest>=8.0.0
+

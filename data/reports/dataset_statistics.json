@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-11-10T07:20:59.853166+00:00",
+  "random_seed": 42,
+  "classes": [
+    "Healthy",
+    "Tomato Early Blight"
+  ],
+  "plantvillage": {
+    "source_name": "PlantVillage",
+    "repository": "https://github.com/spMohanty/PlantVillage-Dataset",
+    "license": "CC-BY-SA-3.0 (via Hugging Face dataset card metadata)",
+    "raw_counts": {
+      "Healthy": 1591,
+      "Tomato Early Blight": 1000
+    },
+    "raw_total": 2591,
+    "corrupted_removed_count": 0,
+    "corrupted_files": [],
+    "exact_duplicates_removed_count": 6,
+    "duplicate_files": [
+      {
+        "path": "/Users/vinayaksaindane/Documents/saish-project/data/raw/PlantVillage/raw/color/Tomato___healthy/34c81c57-e1fa-49dd-a49d-34fe8b2385fe___GH_HL Leaf 466.1.JPG",
+        "duplicate_of": "/Users/vinayaksaindane/Documents/saish-project/data/raw/PlantVillage/raw/color/Tomato___healthy/068e324c-faf6-40d6-8f83-578907f1cac5___GH_HL Leaf 466.1.JPG",
+        "label": "Healthy"
+      },
+      {
+        "path": "/Users/vinayaksaindane/Documents/saish-project/data/raw/PlantVillage/raw/color/Tomato___healthy/505465db-407b-4e0a-8110-7479dad5261c___GH_HL Leaf 389.JPG",
+        "duplicate_of": "/Users/vinayaksaindane/Documents/saish-project/data/raw/PlantVillage/raw/color/Tomato___healthy/37203047-d8ba-43f7-b31e-d496c41c569c___GH_HL Leaf 389.JPG",
+        "label": "Healthy"
+      },
+      {
+        "path": "/Users/vinayaksaindane/Documents/saish-project/data/raw/PlantVillage/raw/color/Tomato___healthy/a5de43e7-fc2f-4a14-a8e6-c0f2f94c84f1___GH_HL Leaf 434.JPG",
+        "duplicate_of": "/Users/vinayaksaindane/Documents/saish-project/data/raw/PlantVillage/raw/color/Tomato___healthy/488feb1c-4b9f-44e7-8aa6-4103a9601f5f___GH_HL Leaf 434.JPG",
+        "label": "Healthy"
+      },
+      {
+        "path": "/Users/vinayaksaindane/Documents/saish-project/data/raw/PlantVillage/raw/color/Tomato___healthy/cfd491d6-4af5-4728-8f0e-0d330a07174a___GH_HL Leaf 482.2.JPG",
+        "duplicate_of": "/Users/vinayaksaindane/Documents/saish-project/data/raw/PlantVillage/raw/color/Tomato___healthy/1af0bfe1-4bcf-4b8b-be66-5d0953eb647e___GH_HL Leaf 482.2.JPG",
+        "label": "Healthy"
+      },
+      {
+        "path": "/Users/vinayaksaindane/Documents/saish-project/data/raw/PlantVillage/raw/color/Tomato___healthy/d2ce7896-6fa4-45e6-96c5-d162da0e3e1c___GH_HL Leaf 220.JPG",
+        "duplicate_of": "/Users/vinayaksaindane/Documents/saish-project/data/raw/PlantVillage/raw/color/Tomato___healthy/9662364c-aaba-45e3-b907-10792d60578c___GH_HL Leaf 220.JPG",
+        "label": "Healthy"
+      },
+      {
+        "path": "/Users/vinayaksaindane/Documents/saish-project/data/raw/PlantVillage/raw/color/Tomato___healthy/e786ac89-29fe-47e3-b49e-b9a9ee7edd9d___GH_HL Leaf 342.1.JPG",
+        "duplicate_of": "/Users/vinayaksaindane/Documents/saish-project/data/raw/PlantVillage/raw/color/Tomato___healthy/37aad83b-7ff8-4b35-b3ed-fb8e0f54910b___GH_HL Leaf 342.1.JPG",
+        "label": "Healthy"
+      }
+    ],
+    "valid_unique_total": 2585,
+    "unique_leaf_groups_total": 863,
+    "images_matched_to_leaf_map": 1999,
+    "original_resolutions": {
+      "256x256": 2585
+    },
+    "target_image_size": [
+      224,
+      224
+    ],
+    "split_method": "Leaf-grouped stratified split (seed=42) preventing same-leaf leakage across splits",
+    "splits": {
+      "train": {
+        "total": 1805,
+        "Healthy": 1109,
+        "Tomato Early Blight": 696
+      },
+      "val": {
+        "total": 390,
+        "Healthy": 238,
+        "Tomato Early Blight": 152
+      },
+      "test": {
+        "total": 390,
+        "Healthy": 238,
+        "Tomato Early Blight": 152
+      }
+    },
+    "leakage_verified_zero_overlap": true
+  },
+  "plantdoc": {
+    "source_name": "PlantDoc (Cropped Classification Subset)",
+    "repository": "https://github.com/pratikkayal/PlantDoc-Dataset",
+    "license": "CC-BY-4.0 (Attribution 4.0 International)",
+    "used_for_training": false,
+    "role": "External field-background domain-shift evaluation dataset only",
+    "raw_counts": {
+      "Healthy": 63,
+      "Tomato Early Blight": 88
+    },
+    "raw_total": 151,
+    "corrupted_removed_count": 0,
+    "corrupted_files": [],
+    "internal_duplicates_removed": 0,
+    "overlap_with_plantvillage_hashes": 0,
+    "valid_eval_counts": {
+      "Healthy": 63,
+      "Tomato Early Blight": 88
+    },
+    "valid_eval_total": 151
+  }
+}
